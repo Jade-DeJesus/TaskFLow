@@ -1,9 +1,9 @@
-TaskFlow
+#TaskFlow
 
 CCS112 Midterm Laboratory Activity 2.
 
-Group Members
-- DEJESUS, CATHERINE JADE
+Group Members:
+- DE JESUS, CATHERINE JADE
 - DE LAS LLAGAS, SHANDARA MAE
 - DE VERA, KEVIN RUSSEL
 - FLORES, JAIDEL
