@@ -1,27 +1,16 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Home from './Home';
-import AddTask from './AddTask';
-import './App.css';
+import React from "react";
+import Header from "./Header";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <nav className="navbar">
-          <Link to="/" className="nav-link">Home</Link>
-          <Link to="/AddTask" className="nav-link">Add Task</Link>
-        </nav>
-
-        <main className="main-content">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/AddTask" element={<AddTask />} />
-          </Routes>
-        </main>
-      </div>
-    </Router>
+    <div>
+      <Header />
+      <main className="container my-4">
+        <h2>Welcome to TaskFlow</h2>
+        <p>This is the shell UI for Task 1. Other features come in later tasks.</p>
+      </main>
+    </div>
   );
 }
 
-export default App;
+export default App();
